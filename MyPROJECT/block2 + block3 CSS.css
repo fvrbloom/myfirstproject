@@ -1,0 +1,96 @@
+.block2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: red;
+}
+
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.block2-col{
+    background: rgb(255, 144, 144);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.block2-col:hover{
+    box-shadow: 0px 0px 20px 0
+        rgba(4, 9, 30, 0.7);
+}
+
+.block3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.block3-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.block3-col img{
+    width: 100%;
+    display: block;
+}
+
+.label{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    background: transparent;
+}
+
+.label:hover{
+    background: rgba(266, 0, 0, 0.5);
+}
+
+.label h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.label:hover h3{
+    bottom: 48%;
+}
